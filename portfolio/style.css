@@ -1,0 +1,217 @@
+.logo{
+
+    border-radius: 50%;
+}
+
+.title-container{
+    display: flex;
+    height: 80vh;
+    margin-top: 10px;
+    background-color:lightblue;
+    gap: 40px;
+}
+.laptop{
+    width: 300px;
+    bottom: 200px;
+    margin-left: 100%;
+    position: relative;
+    border-radius: 90%;
+}
+
+.intro{
+    margin-left: 20%;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 50px;
+    max-width: 40%;
+    padding-top: 10%;
+    font-weight: 100;
+}
+.intro-p{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 0%;
+    margin: 0%;
+}
+
+.about-me-container{
+    display: flex;
+    justify-content: center;
+
+    margin: 50px;
+    
+}
+.about{
+    font-family: Playfair Display ;
+    font-size: 50px;
+    font-weight: 100;
+    max-width: 50%;
+    
+}
+.aboutme{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 200px;
+    padding: 0;
+    margin: 0;
+}
+.profile-photo{
+    width: 200px;
+    position: relative;
+    border-radius: 50%;
+    margin-top: 0;
+    margin-left: 105%;
+    bottom: 200px;
+}
+.container-project{
+    margin: 50px;
+}
+.project-title{
+    margin-left: 70px;
+    margin-top: 0;
+}
+.myproject{
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    padding-bottom: 20px;
+}
+.myproject  img{
+    width: 300px;
+    height: 250px;
+    border: 5px solid black;
+}
+.myproject   a{
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+.bottom-container{
+    background-color: lightblue;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    padding: 20px;
+
+}
+.icon{
+    padding: 2px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.content{
+   
+    text-align: center;
+    font-family: sans-serifS;
+}
+
+
+@media (max-width: 650px){
+    .logo{
+        height: 30px;
+        width: 50px;
+    }
+    .container{
+        font-size: 20px;
+        padding: 7.5px;
+        margin: 0;
+    }
+    
+    .title-container{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 25px;
+        padding-left: 20px;
+    }
+    .container-about{
+        flex-direction: column-reverse;
+    }
+    .about-content > p{
+        font-size: 18px;
+        padding-left: 20px;
+    }
+    .laptop{
+        height: 300px;
+    }
+    .projects-title{
+        margin: 0;
+    }
+    .projects{
+        grid-template-columns: 100%;
+    }
+    .contact-title{
+        margin: 0;
+    }
+    .contact-content > p{
+        font-size: 18px;
+        margin: 0;
+        padding-left: 20px;
+    }
+    .resume-title{
+        margin: 0;
+    }
+    .resume-content{
+        padding-left: 20px;
+    }
+    .resume-content button{
+        margin: 0;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 650px) and (max-width: 1200px){
+    .logo{
+        height: 30px;
+        width: 50px;
+    }
+    .list-elements li{
+        font-size: 20px;
+        padding: 7.5px;
+        margin: 0;
+    }
+    
+    .container-content{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 30px;
+        padding-left: 20px;
+    }
+    .about-content > p{
+        font-size: 18px;
+        padding-left: 20px;
+    }
+    .laptop{
+        height: 300px;
+    }
+    .projects-title{
+        margin: 0;
+    }
+    .projects{
+        grid-template-columns: 50% 50%;
+    }
+    .contact-title{
+        margin: 0;
+    }
+    .contact-content > p{
+        font-size: 18px;
+        margin: 0;
+        padding-left: 20px;
+    }
+    .resume-title{
+        margin: 0;
+    }
+    .resume-content{
+        padding-left: 20px;
+    }
+    .resume-content button{
+        margin: 0;
+        font-size: 18px;
+    }
+}
